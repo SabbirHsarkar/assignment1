@@ -175,8 +175,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* allow responsive layout */
-  gap: 40px; /* uniform gap */
+  flex-wrap: wrap; 
+  gap: 40px; 
 }
 
 .follower-items {
@@ -227,11 +227,21 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   text-align: left;
 }
+.testimonial-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
 
 .stars {
-  font-size: 18px;
-  color: #FFB703;
+  display: flex;
+  gap: 4px;
   margin-bottom: 12px;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
 }
 
 .testimonial-heading {
